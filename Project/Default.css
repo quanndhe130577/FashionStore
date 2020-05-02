@@ -1,0 +1,147 @@
+.radius {
+    border-radius: 20px 0px 20px 0px
+}
+.footer {
+    border: 0px solid black;
+    border-top: 1px solid black
+}
+.login{
+    float: right;
+}
+.header {
+    height: 150px;
+    margin: 0 auto;
+    background-color: white
+}
+.dobong {
+    text-shadow: 0.1cm 0.1cm 0.05cm gray
+}
+
+.tieude {
+    border-radius: 10px 10px 0px 0px
+}
+.formbox {
+    border: 1px solid black;
+    border-radius: 40px 0px 40px 0px;
+    background-image: url(backgroundDangky.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 400px 400px
+}
+
+#bodyGioiThieu {
+    
+}
+#kh1 {
+    color: blue;
+    background-image: url("kh1.jpg");
+    transform: rotate(-10deg);
+    border: 1px solid blue;
+}
+#kh2 {
+    transform: skew(-20deg, 20deg);
+    color: darkorchid;
+    background-image: url("kh2.jpg");
+    border: 1px solid darkorchid;
+}
+#kh3 {
+    transform: skew(20deg, 10deg);
+    color: green;
+    background-image: url("kh3.jpg");
+    border: 1px solid green;
+}
+#kh4 {
+    transform: skew(-10deg, -10deg);
+    color: orangered;
+    background-image: url("kh4.jpg");
+    border: 1px solid orange;
+}
+.khauhieu {
+}
+.kh{
+    float: left; 
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size:150px 150px
+}
+.baivietGioiThieu {
+    line-height: 200%
+}
+#thongtinvechungtoi {
+    border: 0px;
+    border-bottom: 1px dashed black
+}
+#left {
+    text-align: left
+}
+#buttonDangky {
+    background:#8C0209;  -moz-border-radius-topleft:20px; 
+    -webkit-border-radius-topleft:20px; -ms-border-radiustopleft:20px; 
+    border-top-left-radius:20px;        -moz-border-radius-bottomright:20px;  
+    -webkit-border-radiusbottomright:20px; -ms-border-radiusbottomright:20px; 
+    border-bottom-right-radius:20px; 
+    border-bottom-left-radius:20px; 
+    border-top-right-radius:20px;
+    /* Gradient từ trên xuống*/  
+    background: -webkit-linear-gradient(#aa0514, #6e0001);  
+    background: -o-linear-gradient(#aa0514, #6e0001);    
+    background: -moz-linear-gradient(#aa0514, #6e0001);  
+    background: linear-gradient(#d00618, #6e0001);  
+    color: white;
+    border: none;
+}
+/* css for menu*/
+.menu {
+    border-radius: 30px 0px 30px 0px;
+    background:#8C0209;  -moz-border-radius-topleft:20px; 
+    -webkit-border-radius-topleft:20px; -ms-border-radiustopleft:20px; 
+    border-top-left-radius:20px;        -moz-border-radius-bottomright:20px;  
+    -webkit-border-radiusbottomright:20px; -ms-border-radiusbottomright:20px; 
+    border-bottom-right-radius:20px; /* Gradient từ trên xuống*/  
+    background: -webkit-linear-gradient(#aa0514, #6e0001);  
+    background: -o-linear-gradient(#aa0514, #6e0001);    
+    background: -moz-linear-gradient(#aa0514, #6e0001);  
+    background: linear-gradient(#d00618, #6e0001);    
+}
+.sub-menu {
+    background-color: #424242;
+    width: 75px;
+    /* text-align:left; */
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: -3px;
+    line-height: 50px; 
+}
+.sub-menu li:hover {
+    background-color: #F1F1F1;
+}
+.menu li {
+    margin-left: -40px;
+    text-decoration: none;
+}
+.menu a {
+    text-decoration: none;
+    color: red;
+}
+.menu td:hover{
+    background-color: red;
+}
+.menu td:hover .sub-menu {
+    display: block;
+}
+
+#cuahangcuachungtoi {
+    font-weight: bold; 
+    background-color: white; 
+    font-size: 20px; 
+    text-align: center;
+    color: red;
+}
+#xoay {
+    transform: rotate(30deg);
+}

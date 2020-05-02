@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+        <title>Giới Thiệu</title>
+    <link rel="stylesheet" type="text/css" href="Default.css">
+    <script src="ThuVien.js"></script>
+    <style>
+        td {
+            border: 0px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 100px;
+        }
+    </style>
+</head>
+<body style="background-color: seagreen;margin-top: 20px; font-size: 18px;">
+    <!--logo-->
+<div style="background-color: white; width: 1280px; margin: 0 auto; border-radius: 20px 0px 0px 0px">    
+        <!--header-->
+        <div>
+                <iframe src="Header.html" scrolling = "no" height="150px" width="1250px" frameborder="0"></iframe>
+        </div>
+    <!--Menu-->
+    <div class="menu" style="height: 50px; width: 1240px;margin: 0 auto; background-color: #8C0209; padding: 0px 5px 0px 5px">
+        <table style="margin-left: 15px; width: 1210px">
+            <tr style="list-style-type: none; height: 49px">
+                <td><a href="TrangChu.html" style="color: white; text-decoration: none">Trang Chủ</a></td>
+                <td><a href="https://www.shein.com.vn/" style="color: white; text-decoration: none" target="black">Quần áo nữ</a>
+                    <ul class="sub-menu" style="list-style: none">
+                        <li style="border:none; padding-left: -20px"><a href="#">Áo thun</a></li>
+                        <li style="border:none"><a href="#">Áo Sơ mi</a></li>
+                        <li style="border:none"><a href="#">Quần tây</a></li>
+                        <li style="border:none"><a href="#">Quần jean</a></li>
+                        <li style="border:none"><a href="#">Giày dép</a></li>
+                    </ul>
+                </td>
+                <td><a href="http://www.thoitrangnamhanoi.vn/" style="color: white;text-decoration: none" target="black">Quần áo nam</a>
+                    <ul class="sub-menu"  style="list-style: none">
+                        <li style="border:none"><a href="#">Áo thun</a></li>
+                        <li style="border:none"><a href="#">Áo Sơ mi</a></li>
+                        <li style="border:none"><a href="#">Quần tây</a></li>
+                        <li style="border:none"><a href="#">Quần jean</a></li>
+                        <li style="border:none"><a href="#">Giày dép</a></li>
+                    </ul>
+                </td>
+                <td style="width: 75px"><a href="http://www.phukienthoitranggiare.net/" style="color: white;text-decoration: none" target="black">Phụ kiện</a>
+                    <ul class="sub-menu"  style="list-style: none">
+                        <li style="border:none"><a href="#">Mắt kính</a></li>
+                        <li style="border:none"><a href="#">Dây nịt</a></li>
+                        <li style="border:none"><a href="#">Giỏ xách</a></li>
+                        <li style="border:none"><a href="#">Nón</a></li>
+                    </ul>
+                </td>
+                <td style="width: 150px"><a href="https://baomoi.com/" style="color: white;text-decoration: none" target="black;">Tin tức và sự kiện</a></td>
+                <td>
+                    <a href="httlp://www.gmail.com.vn"><img src="anhgmail.jpg" height="20px" width="30px"></a>
+                    <a href="httlp://www.gmail.com.vn" style="padding-top: 10px; padding-left: 10px; color: white; text-decoration: none">Liên hệ</a> 
+                </td>
+                <!--Tim kiem-->
+                <td style="width: 200px; border-right: none">
+                        <input type="text" name = "txtTim" style="width: 180px;height: 25px;border: 1px solid black;
+                             font-family: Georgia, Times New Roman, Times, serif" placeholder="Tên sản phẩm"
+                              onkeypress="xlTim2(this.value, window.event);" />
+                        <input type="image" title="Tìm sản phẩm" src="timkiem.png" style="height: 25px;position: relative; top: 8px"
+                            onclick="xlTim();" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--Subsidebar-->
+<section style="width: 1240px; margin: 0 auto;background-color: #FFFFFF; padding: 20px 5px 0px 5px">
+    <section style="width: 240px;float: left">
+        <iframe src="SanPhamMoi.html" scrolling = "no" width="240px" height="480px" frameborder="0"></iframe>
+        <iframe src="HoTroOnline.html" scrolling = "no" width="240px" height="375px" frameborder="0"></iframe>
+        <iframe src="ThongKe.html" scrolling = "no" width="240px" height="150px" frameborder="0"></iframe>
+    </section>
+    <section style="float: left; width: 760px; margin-left: 0px" id="bodyGioiThieu"">
+        <div style=" padding-top: 7px">
+                <img src="bannerGioiThieu.jpg" alt="760*350" width="760px" height="330px">
+        </div>
+        <div>
+            <h1 style="color:#8C0209;font-size: 30px ">Chào mừng bạn đến với Shop quần áo rẻ đẹp!</h1>
+        </div>
+        <div class="Khauhieu" style="height: 180px">     
+            <div id="kh1" class="kh">Hãy thỏa sức</div>     
+            <div id="kh2" class="kh">shopping <br />online</div>     
+            <div id="kh3" class="kh">cùng shop <br />quần áo</div>   
+            <div id="kh4" class="kh">rẻ đẹp nhé!</div>  
+        </div> 
+        <div class="baivietGioiThieu">
+            <p>Để chuẩn bị cho một ngày mới năng động và hiệu quả, bạn không thể lơ là
+                    trong việc chọn cho mình một bộ cánh tươm tất và thật xinh xắn. Diện cho
+                    mình những bộ quần áo hợp thời trang, vừa thanh lịch lại vừa rất trẻ trung,
+                    duyên dáng, sành điệu, ... đó chính là điều mà Shop <b>Thiên Thanh</b> muốn
+                    giới thiệu với các bạn.</p>
+            <p>Shop thời trang <b>Thiên Thanh</b> với nhiều sản phầm phong phú, đa dạng:
+                    Quần áo, dây lưng, ví da, kính mắt nam nữ,... với mẫu mã, kiểu dáng model
+                    nhất được cập nhật liên tục theo xu hướng thời trang trẻ. Với những chiếc
+                    áo sơ mi, quần âu lịch sự nhưng rất tôn vóc dáng của bạn, dáng đầm ngắn đa
+                    dạng về màu sắc và kiểu dáng tôn nên vẻ đẹp nhẹ nhàng và nữ tính, giản dị
+                    nhưng kiêu sa rất hượng với xu hướng hiện đại. Hòa nhịp cũng những bộ phụ
+                    trang nhưng vòng đeo tay hay ví nhỏ, dây lưng, kính mắt, bông tai, giày cao
+                    gót, ... khiến bộ trang phục của bạn thật nổi bật và cá tính khi đến với
+                    Shop thời trang <b>Thiên Thanh</b> chúng tôi.</p>
+            <p>Chúng tôi sẽ giao hàng tận nơi trong thời gian nhanh nhất! Hãy đến với
+                    Shop thời trang <b>Thiên Thanh</b> để chọn cho mình những bộ trang phục duyên
+                    dáng và hợp với mình nhất nha bạn! </p>
+            <p>Liên hệ trực tiếp: <a href="projectme.html" style="text-decoration: none; color: red">
+                    Shop thời trang Thiên Thanh</a></p>
+            <p>Địa chỉ: 357 Lê Hồng Phong, Q.10, TP.HCM
+                    <br>Hotline: 0914 024 357 </p>
+            </div>
+            <div id="thongtinvechungtoi">
+                <h1 style="color:#8C0209; font-size: 40px">Thông tin về chúng tôi</h1>
+            </div>
+            <div style="line-height: 150%; padding-left: 30px">
+                <p style="color: #8C0209; font-size: 25px ">Danh sách cửa hàng: </p>
+                    <ul style="padding-left: 70px">
+                        <li>Shop Thiên Thanh 1, 233 Hai Bà Trưng, Quận 3, Tp.HCM</li>
+                        <li>Shop Thiên Thanh 2, 227 Nguyễn Văn Cừ, Quận 5, Tp.HCM</li>
+                        <li>Shop Thiên Thanh 3, số 2 Trần Quang Khải, Quận 1, Tp.HCM</li>
+                    </ul>
+                <p style="color: #8C0209;font-size: 25px  ">Đặc biệt: </p>
+                    <ol style="padding-left: 70px" type="1">
+                        <li>Giao hàng tận nơi không tính phí</li>
+                        <li>Có giảm giá cho khách hàng thân thiết</li>
+                        <li>Giảm giá cho các dịp lễ và Tết</li>
+                    </ol>
+            </div>
+    </section>
+    <!--subslidebar right-->
+    <section style="float: left; width: 220px">
+        <iframe src="Giohang.html" scrolling = "no" width="240px" height="165px" frameborder="0"></iframe>
+        <iframe src="TinThoiTrang.html" scrolling = "no" width="240px" height="600px" frameborder="0"></iframe>
+    </section>
+    <div style="clear: both;">&nbsp;</div> 
+</section>
+<!--Footer-->
+    <div>
+        <iframe src="Menu.html" scrolling ="no" width="1270px" height="90px" frameborder="0"></iframe>
+    </div>
+</div>
+
+</body>

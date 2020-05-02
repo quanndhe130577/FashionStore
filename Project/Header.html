@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+        <link rel="stylesheet" type="text/css" href="Default.css"> 
+        <script src="ThuVien.js"></script>
+</head>
+<body>
+        <header  class="header">
+                <div style=" position: relative; top: 40px; left: 20px;">
+                    <div style="float: left;padding-top: 10px;padding-left: 10px;"><img src="logo.png" alt="logo" height="40px" width="40px"></div>
+                    <div style="float: left; padding-left: 10px;" class="dobong"><b style="font-size: 30px;">Shop</b> <b style="color: #8C0209; font-size: 40px;">Thiên Thanh</b> THỜI TRANG NAM NỮ </div>
+                </div>
+                <div style="padding-right: 20px">
+                    <a href="httlp://www.gmail.com.vn" style="float: right; padding-top: 20px; padding-left: 5px">Liên hệ</a>
+                    <a href="httlp://www.gmail.com.vn" style="float: right; padding-top: 10px" ><img src="anhgmail.jpg" height="40px" width="50px"></a>  
+                </div>
+                <!--Dang ky-->
+                <div id="login" style="padding-top: 70px; padding-right: 20px;">
+                        <form name="login" action="" method="get" style="float: right">
+                            <input id="username" type="text" name="txtTen" placeholder="Account" required>
+                            <input id="password" type="password" name="txtPass" placeholder="Password" required>
+                            <input type="image" id="login" title="Đăng nhập" 
+                                onClick= "xlDangNhap(txtTen.value, txtPass.value);" src="login.jpg">
+                            <br>
+                            <input type="button" id="buttonDangky"  name="dangky" value="Đăng ký" onclick="openDangky()" 
+                                style="margin-top: 10px; margin-left: 250px; width: 100px;height: 30px;">
+                        </form>
+                </div>
+            </header>
+</body>
